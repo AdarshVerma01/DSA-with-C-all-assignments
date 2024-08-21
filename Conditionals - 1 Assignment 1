@@ -1,0 +1,143 @@
+                                 Assignment : L3
+                                 If-Else
+Ques :   Take 2 integers input and print the greatest of them.
+ans:   #include<iostream>
+        using namespace std;
+        int main(){
+        int m,n;
+        cin>>m>>n;
+        if(m>n){
+        cout<<m << " is the greatest number : ";
+        }
+        else{
+        cout<<n<<"  is the greatest number : ";
+        }
+        return 0;
+        }
+
+Ques :  Given the radius of the circle predict whether numerically area of this circle is larger than the circumference or not.
+ans:  #include<iostream>
+      using namespace std;
+      int main() {
+      float r,area,p;
+      cout<<"enter the redius of the circle : ";
+      cin>>r;
+      area=3.1415*r*r;
+      p=2*3.1415*r;
+      if(area>p){
+      cout<<" area is the larger than circumference ";
+      }
+      else
+      {
+      cout<<" circumference is the larger than the area :";
+      }
+      return 0;
+      }
+
+Ques :  Any year is input through the keyboard. Write a program to determine whether the year is a leap year or not. (Considering leap year occurs after every 4 years)
+ans:    #include<iostream>
+        using namespace std;
+        int main(){
+        int n;
+        cout<<"enter the any year here : ";
+        cin>>n;
+        if(n%4==0){
+        cout<<" this is a leap year ";
+        }
+        else
+        {
+        cout<<" this is not a leap year ";
+        }
+        return 0;
+        }
+
+Ques :  Given the length and breadth of a rectangle, write a program to find whether numerically the area of the rectangle is greater than its perimeter.
+ans:  #include<iostream>
+      using namespace std;
+      int main(){
+      double length,breadth,area,perimeter;
+      cout<<"enter the length of the rectangle : ";
+      cin>>length;
+      cout<<" enter the breadth of the rectangle : ";
+      cin>>breadth;
+      area = length*breadth;
+      perimeter=2*(length+breadth);
+      if(area>perimeter){
+      cout<<area<<" area is greater than the perimeter ";
+      }
+      else{
+      cout<<perimeter<<" perimeter is greater than the area of the rectangle ";
+      }
+      return 0;
+      }
+
+Ques :  Write a program to input sides of a triangle and check whether a triangle is equilateral, scalene or isosceles triangle.
+ans:  #include<iostream>
+      using namespace std;
+      int main (){
+      double m,n ,o;
+      cout<<"enter the side 1 of the triangle : ";
+      cin>>m;
+      cout<<"enter the side 2 of the triangle : ";
+      cin>>n;
+      cout<<"enter the side 3 of the triangle : ";
+      cin>>o;
+      if(m<=0||n<=0<o<=0){
+      cout<<"these sides of tiangle can not be :";
+      }
+      else if(m==n && n==o){
+      cout<<" this is equilateral triangle ";
+      }
+      else if(m==n && n!=o){
+      cout<<" this is an issoceles triangle ";
+      }
+      else{
+      cout<<"this is an scalene triangle ";
+      }
+      return 0;
+      }
+      
+Ques : If the marks of A, B and C are input through the keyboard, write a program to determine the student scoring least marks. 
+ans:  #include<iostream>
+      using namespace std;
+      int main(){
+      double a, b,c;
+      cout<<" enter the marks of A ";
+      cin>>a;
+      cout<<" enter the marks of B ";
+      cin>>b;
+      cout<<" enter the marks of C ";
+      cin>>c;
+      if(a>b && a>c){
+      cout<<" A has scored highest ";
+      }
+      else if(b>a&&b>c){
+      cout<<" B has scored highest ";
+      }
+      else
+      {
+      cout<<"C has scored highest ";
+      }
+      return 0;
+      }
+
+Ques :
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
