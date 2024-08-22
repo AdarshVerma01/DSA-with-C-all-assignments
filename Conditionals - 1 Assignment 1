@@ -108,20 +108,43 @@ ans:  #include<iostream>
       cin>>b;
       cout<<" enter the marks of C ";
       cin>>c;
-      if(a>b && a>c){
-      cout<<" A has scored highest ";
+      if(a<b && a<c){
+      cout<<" A has scored minimum ";
       }
-      else if(b>a&&b>c){
-      cout<<" B has scored highest ";
+      else if(b<a && b<c){
+      cout<<" B has scored minimum ";
       }
       else
       {
-      cout<<"C has scored highest ";
+      cout<<"C has scored minimum ";
       }
       return 0;
       }
 
-Ques :
+Ques : Given  point (x, y), write a program to find out if it lies on the x-axis, y-axis or at the origin, viz. (0, 0). 
+ans:  #include<iostream>
+      using namespace std;
+      int main(){
+      double x,y;
+      cout<<"enter the points : ";
+      cin>>x>>y;
+      if(x==0 && y==0){
+      cout<<"given point is at origin";
+      }
+      else if(x==0 && y>0){
+      cout<<" the points lies on y axis ";
+      }
+      else if(y==0 && x>0){
+      cout<<" the points lies on x axis ";
+      }
+      else
+      {
+      cout<<" the points are not valid ";
+      }
+      return 0;
+      }
+
+
 
 
 
